@@ -11,7 +11,8 @@ const log = env === 'development' ? console.log : function () {}
 describe('telstarsurf-api', function () {
   const client = createClient({
     key: process.env.API_KEY,
-    itemsPerPage: 20
+    itemsPerPage: 20,
+    pages: 1
   })
 
   const stream = client.sails.used()
@@ -29,19 +30,8 @@ describe('telstarsurf-api', function () {
     stream.on('end', function () {
       (count > 1).should.be.true()
 
-      const item = find(buffer, 'newPrice')
-
+      const item = find(buffer, 'brand')
       item.should.be.an.Object()
-
-      describe('price', function () {
-        ;[
-          'rawPrice',
-          'newPrice',
-          'oldPrice'
-        ].forEach(function (prop) {
-          it(prop, () => item[prop].should.be.a.Number())
-        })
-      })
 
       describe('url', function () {
         ;[
@@ -53,9 +43,10 @@ describe('telstarsurf-api', function () {
       })
 
       describe('rest of props', function () {
-        it('size', () => item.size.should.be.an.Array())
+        it('size', () => item.size.should.be.an.String())
         it('brand', () => item.brand.should.be.an.String())
         it('name', () => item.name.should.be.an.String())
+        it('price', () => item.price.should.be.a.Number())
       })
 
       done()
