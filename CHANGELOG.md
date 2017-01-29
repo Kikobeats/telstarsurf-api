@@ -1,3 +1,10 @@
+<a name="1.0.1"></a>
+## 1.0.1 (2017-01-29)
+
+* Improve mapper ([eeb9308](https://github.com/kikobeats/telstarsurf-api/commit/eeb9308))
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2017-01-29)
 
