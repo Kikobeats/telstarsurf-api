@@ -1,3 +1,10 @@
+<a name="1.0.2"></a>
+## 1.0.2 (2017-01-29)
+
+* Fix binds ([ee83df4](https://github.com/kikobeats/telstarsurf-api/commit/ee83df4))
+
+
+
 <a name="1.0.1"></a>
 ## 1.0.1 (2017-01-29)
 
