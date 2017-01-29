@@ -2,7 +2,7 @@
   "name": "telstarsurf-api",
   "description": "Programatic API access for telstarsurf.com",
   "homepage": "https://github.com/Kikobeats/telstarsurf-api",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "lib",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
@@ -43,12 +43,6 @@
   "files": [
     "lib"
   ],
-  "standard": {
-    "globals": [
-      "it",
-      "describe"
-    ]
-  },
   "scripts": {
     "clean": "rm -rf node_modules",
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
@@ -56,5 +50,11 @@
     "pretest": "npm run lint",
     "test": "nyc mocha"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "standard": {
+    "globals": [
+      "describe",
+      "it"
+    ]
+  }
 }

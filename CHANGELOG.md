@@ -1,3 +1,12 @@
+<a name="1.0.0"></a>
+# 1.0.0 (2017-01-29)
+
+* Add mapper ([def7d7a](https://github.com/kikobeats/telstarsurf-api/commit/def7d7a))
+* bind paths ([b1070fc](https://github.com/kikobeats/telstarsurf-api/commit/b1070fc))
+* First commit ([ae4e38d](https://github.com/kikobeats/telstarsurf-api/commit/ae4e38d))
+
+
+
 <a name="1.1.5"></a>
 ## 1.1.5 (2017-01-18)
 
