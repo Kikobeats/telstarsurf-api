@@ -1,3 +1,10 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2017-02-04)
+
+* Handle case when item is not present ([35cd682](https://github.com/kikobeats/telstarsurf-api/commit/35cd682))
+
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2017-01-29)
 
