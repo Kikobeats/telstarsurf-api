@@ -11,11 +11,11 @@ const log = env === 'development' ? console.log : function () {}
 describe('telstarsurf-api', function () {
   const client = createClient({
     key: process.env.API_KEY,
-    itemsPerPage: 20,
+    itemsPerPage: 400,
     pages: 1
   })
 
-  const stream = client.sails.used()
+  const stream = client.boards.all()
   let count = 0
   let buffer = []
 

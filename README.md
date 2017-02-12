@@ -24,7 +24,7 @@ const telstarsurf = require('telstarsurf-api')
 const stream = telstarsurf({
   key: process.env.API_KEY, // API Key credentials
   pages: 3, // Numbers or request per each method call [default=Infinity]
-  itemsPerPage: 20 // Number of items per page [default=200]
+  itemsPerPage: 20 // Number of items per page [default=9999]
 })
 ```
 
