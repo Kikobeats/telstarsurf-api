@@ -1,3 +1,10 @@
+<a name="1.0.5"></a>
+## 1.0.5 (2017-02-12)
+
+* Improve workflow ([cb127f9](https://github.com/kikobeats/telstarsurf-api/commit/cb127f9))
+
+
+
 <a name="1.0.4"></a>
 ## 1.0.4 (2017-02-12)
 
