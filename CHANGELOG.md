@@ -1,3 +1,10 @@
+<a name="1.0.4"></a>
+## 1.0.4 (2017-02-12)
+
+* Add missing all list methods ([d8746b9](https://github.com/kikobeats/telstarsurf-api/commit/d8746b9))
+
+
+
 <a name="1.0.3"></a>
 ## 1.0.3 (2017-02-04)
 
