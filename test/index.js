@@ -2,7 +2,7 @@
 
 const isAbsoluteUrl = require('is-absolute-url')
 const find = require('lodash.find')
-require('should')
+const should = require('should')
 
 const createClient = require('..')
 const env = process.env.NODE_ENV || 'development'
@@ -28,25 +28,25 @@ describe('telstarsurf-api', function () {
     stream.on('error', done)
 
     stream.on('end', function () {
-      (count > 1).should.be.true()
+      should(count > 1).be.true()
 
       const item = find(buffer, 'brand')
-      item.should.be.an.Object()
+      should(item).be.an.Object()
 
       describe('url', function () {
         ;[
           'link',
           'image'
         ].forEach(function (prop) {
-          it(prop, () => isAbsoluteUrl(item[prop]).should.be.true())
+          it(prop, () => should(isAbsoluteUrl(item[prop])).be.true())
         })
       })
 
       describe('rest of props', function () {
-        it('size', () => item.size.should.be.an.String())
-        it('brand', () => item.brand.should.be.an.String())
-        it('name', () => item.name.should.be.an.String())
-        it('price', () => item.price.should.be.a.Number())
+        it('size', () => should(item.size).be.an.String())
+        it('brand', () => should(item.brand).be.an.String())
+        it('name', () => should(item.name).be.an.String())
+        it('price', () => should(item.price).be.a.Number())
       })
 
       done()
