@@ -1,3 +1,12 @@
+<a name="1.0.6"></a>
+## 1.0.6 (2017-04-19)
+
+* Add missing return ([59f1094](https://github.com/kikobeats/telstarsurf-api/commit/59f1094))
+* Tests refactor ([2c06b4a](https://github.com/kikobeats/telstarsurf-api/commit/2c06b4a))
+* Update travis builds ([8293312](https://github.com/kikobeats/telstarsurf-api/commit/8293312))
+
+
+
 <a name="1.0.5"></a>
 ## 1.0.5 (2017-02-12)
 
