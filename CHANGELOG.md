@@ -1,3 +1,10 @@
+<a name="1.0.7"></a>
+## 1.0.7 (2017-05-29)
+
+* fix(package): update got to version 7.0.0 ([6cf1fea](https://github.com/kikobeats/telstarsurf-api/commit/6cf1fea))
+
+
+
 <a name="1.0.6"></a>
 ## 1.0.6 (2017-04-19)
 
